@@ -7,4 +7,8 @@ __pycache__/
 venv/
 .env.*
 .DS_Store
-.pytest_cache/
+.pytest_cache/mlruns/
+models/*.pkl
+models/*.joblib
+reports/
+data/current.csv
