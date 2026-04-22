@@ -1,5 +1,5 @@
 $schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
 name: churn-model
-path: models/churn_model.joblib
+path: ../models/churn_model.joblib
 type: custom_model
 description: Customer churn prediction model

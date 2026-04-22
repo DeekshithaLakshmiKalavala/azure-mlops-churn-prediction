@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1776832955720
+current_stage: None
+description: null
+last_updated_timestamp: 1776832955720
+name: churn-prediction-model
+run_id: 71eeb617244546d0849fa2d2ccfa2b8e
+run_link: null
+source: /Users/deekshi/azure-mlops-churn/mlruns/237781609353909059/71eeb617244546d0849fa2d2ccfa2b8e/artifacts/model
+status: READY
+status_message: null
+storage_location: /Users/deekshi/azure-mlops-churn/mlruns/237781609353909059/71eeb617244546d0849fa2d2ccfa2b8e/artifacts/model
+user_id: null
+version: 1

@@ -1,0 +1,43 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.15.1
+model_size_bytes: 2051
+model_uuid: bff59c68b797425a909b5bf62c69f470
+run_id: 71eeb617244546d0849fa2d2ccfa2b8e
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_payload.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "gender", "required": true}, {"type": "double",
+    "name": "SeniorCitizen", "required": true}, {"type": "double", "name": "Partner",
+    "required": true}, {"type": "double", "name": "Dependents", "required": true},
+    {"type": "double", "name": "tenure", "required": true}, {"type": "double", "name":
+    "PhoneService", "required": true}, {"type": "double", "name": "MultipleLines",
+    "required": true}, {"type": "double", "name": "InternetService", "required": true},
+    {"type": "double", "name": "OnlineSecurity", "required": true}, {"type": "double",
+    "name": "OnlineBackup", "required": true}, {"type": "double", "name": "DeviceProtection",
+    "required": true}, {"type": "double", "name": "TechSupport", "required": true},
+    {"type": "double", "name": "StreamingTV", "required": true}, {"type": "double",
+    "name": "StreamingMovies", "required": true}, {"type": "double", "name": "Contract",
+    "required": true}, {"type": "double", "name": "PaperlessBilling", "required":
+    true}, {"type": "double", "name": "PaymentMethod", "required": true}, {"type":
+    "double", "name": "MonthlyCharges", "required": true}, {"type": "double", "name":
+    "TotalCharges", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+utc_time_created: '2026-04-22 04:42:33.792435'

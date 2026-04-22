@@ -1,0 +1,15 @@
+artifact_uri: /Users/deekshi/azure-mlops-churn/mlruns/237781609353909059/de680eded4614e638b624e40257d9475/artifacts
+end_time: 1776832957692
+entry_point_name: ''
+experiment_id: '237781609353909059'
+lifecycle_stage: active
+run_id: de680eded4614e638b624e40257d9475
+run_name: RandomForest_100
+run_uuid: de680eded4614e638b624e40257d9475
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776832956075
+status: 3
+tags: []
+user_id: deekshi

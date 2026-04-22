@@ -1,14 +1,14 @@
+import os
 import joblib
 import pandas as pd
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-MODEL_PATH = "models/churn_model.joblib"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE_DIR, "models", "churn_model.joblib")
 
 app = FastAPI(title="Azure MLOps Churn Prediction API")
 model = joblib.load(MODEL_PATH)
-
-
 class CustomerRequest(BaseModel):
     gender: str
     SeniorCitizen: int

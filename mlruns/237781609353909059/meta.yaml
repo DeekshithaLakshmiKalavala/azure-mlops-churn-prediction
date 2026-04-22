@@ -1,0 +1,6 @@
+artifact_location: /Users/deekshi/azure-mlops-churn/mlruns/237781609353909059
+creation_time: 1776832953656
+experiment_id: '237781609353909059'
+last_update_time: 1776832953656
+lifecycle_stage: active
+name: churn-prediction

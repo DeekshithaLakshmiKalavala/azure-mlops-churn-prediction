@@ -5,12 +5,11 @@ import pandas as pd
 
 model = None
 
-
 def init():
     global model
-    model_path = os.path.join(os.getenv("AZUREML_MODEL_DIR"), "churn_model.joblib")
+    model_dir = os.getenv("AZUREML_MODEL_DIR")
+    model_path = os.path.join(model_dir, "churn_model.joblib")
     model = joblib.load(model_path)
-
 
 def run(raw_data):
     try:
