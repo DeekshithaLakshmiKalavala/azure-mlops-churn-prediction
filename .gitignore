@@ -12,3 +12,5 @@ models/*.pkl
 models/*.joblib
 reports/
 data/current.csv
+mlruns/
+models/
