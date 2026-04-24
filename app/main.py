@@ -8,7 +8,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(BASE_DIR, "models", "churn_model.joblib")
 
 app = FastAPI(title="Azure MLOps Churn Prediction API")
-model = joblib.load(MODEL_PATH)
+# Fixed — loads lazily only when needed
+model = None
+
+def get_model():
+    global model
+    if model is None:
+        model = joblib.load(MODEL_PATH)
+    return model
 class CustomerRequest(BaseModel):
     gender: str
     SeniorCitizen: int
