@@ -14,3 +14,5 @@ reports/
 data/current.csv
 mlruns/
 models/
+mlruns/
+models/

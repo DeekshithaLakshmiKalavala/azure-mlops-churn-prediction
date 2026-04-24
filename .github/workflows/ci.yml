@@ -80,7 +80,12 @@ jobs:
         env:
           MLFLOW_TRACKING_URI: mlruns
           DATA_PATH: data/churn.csv
-        run: python src/train.py
+          MODEL_DIR: models
+          MLFLOW_EXPERIMENT_NAME: churn-prediction
+        run: |
+          rm -rf mlruns/ models/
+          mkdir -p models reports
+          python src/train.py
 
       - name: Upload trained model
         uses: actions/upload-artifact@v4
