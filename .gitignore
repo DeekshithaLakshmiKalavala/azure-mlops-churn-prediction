@@ -13,6 +13,4 @@ models/*.joblib
 reports/
 data/current.csv
 mlruns/
-models/
-mlruns/
-models/
+models/best_run_id.txt
