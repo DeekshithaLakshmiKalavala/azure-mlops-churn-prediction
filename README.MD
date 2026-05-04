@@ -9,7 +9,7 @@
 [![Evidently](https://img.shields.io/badge/Evidently-0.4.40-purple)](https://evidentlyai.com)
 
 ## 🌐 Live Demo
-**API Docs:** http://churn-api-15.eastus.azurecontainer.io:8000/docs
+**API Docs:** http://churn-api-21.eastus.azurecontainer.io:8000/docs
 
 Try a live prediction — no setup needed!
 
