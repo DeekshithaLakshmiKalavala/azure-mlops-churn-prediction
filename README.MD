@@ -15,6 +15,17 @@ Try a live prediction — no setup needed!
 
 ---
 
+## 📸 Screenshots
+
+### API Documentation
+![API Docs](docs/screenshots/api-docs.png)
+
+### Making a Prediction  
+![API Request](docs/screenshots/api-request.png)
+
+### Live Prediction Result
+![API Response](docs/screenshots/api-response.png)
+
 ## 🏗️ Architecture
 
 ```
