@@ -267,4 +267,4 @@ chmod +x deployment/aks_deploy.sh
 
 **Deekshitha Lakshmi Kalavala**
 - GitHub: [@DeekshithaLakshmiKalavala](https://github.com/DeekshithaLakshmiKalavala)
-- Live API: http://churn-api-15.eastus.azurecontainer.io:8000/docs
+- Live API: http://churn-api-21.eastus.azurecontainer.io:8000/docs
