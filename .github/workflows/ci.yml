@@ -208,5 +208,5 @@ jobs:
       - name: Print deployed endpoint
         run: |
           echo "API deployed!"
-          echo "Endpoint: http://churn-api-${{ github.run_number }}.eastus.azurecontainer.io:8000"
-          echo "Docs:     http://churn-api-${{ github.run_number }}.eastus.azurecontainer.io:8000/docs"
+          echo "Endpoint: http://churn-mlops-apix.eastus.azurecontainer.io:8000"
+          echo "Docs:     http://churn-mlops-apix.eastus.azurecontainer.io:8000/docs"
