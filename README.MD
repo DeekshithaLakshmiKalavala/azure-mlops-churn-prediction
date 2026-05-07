@@ -9,7 +9,7 @@
 [![Evidently](https://img.shields.io/badge/Evidently-0.4.40-purple)](https://evidentlyai.com)
 
 ## 🌐 Live Demo
-**API Docs:** http://churn-api-21.eastus.azurecontainer.io:8000/docs
+**API Docs:** http://churn-mlops-apix.eastus.azurecontainer.io:8000/docs
 
 Try a live prediction — no setup needed!
 
@@ -185,7 +185,7 @@ docker run -p 8000:8000 churn-api
 
 ## 🧪 Sample API Request
 
-**POST** `http://churn-api-15.eastus.azurecontainer.io:8000/predict`
+**POST** `http://churn-mlops-apix.eastus.azurecontainer.io:8000/predict`
 
 ```json
 {
@@ -267,4 +267,4 @@ chmod +x deployment/aks_deploy.sh
 
 **Deekshitha Lakshmi Kalavala**
 - GitHub: [@DeekshithaLakshmiKalavala](https://github.com/DeekshithaLakshmiKalavala)
-- Live API: http://churn-api-21.eastus.azurecontainer.io:8000/docs
+- Live API: http://churn-mlops-apix.eastus.azurecontainer.io:8000/docs
